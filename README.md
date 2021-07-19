@@ -43,6 +43,8 @@ useful and cool.
 
 - More Data! Need a lot more images to train classifiers.
 
+- Pip freeze into requirements.txt (once versions are decided)
+
 - Video input/output
 
 
