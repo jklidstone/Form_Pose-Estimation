@@ -11,6 +11,10 @@ a user's knees, wrists, and chest (mainly the angles between these structures).
 Trial with (Windows -- OSX only needs to replace py with python):
 - py run_pose.py --input ohp_7rest.png --proto models/mpi/pose_deploy_linevec_faster_4_stages.prototxt  --model models/mpi/pose_iter_160000.caffemodel --dataset MPI
 
+You should get something like this:
+![](https://github.com/jklidstone/Form_Pose-Estimation/blob/main/Form_Estimation/ohp_7rest.png?raw=true)
+![](https://github.com/jklidstone/Form_Pose-Estimation/blob/main/Form_Estimation/result_ohp_7rest.png?raw=true)
+
 If you wish to save the image/frame extracted information to a .csv, you can do so with:
 - py run_pose.py --input sample.jpg --proto models/mpi/pose_deploy_linevec_faster_4_stages.prototxt  --model models/mpi/pose_iter_160000.caffemodel --dataset MPI --trainpath YOUR_PATH_HERE
 
