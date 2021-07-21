@@ -48,4 +48,7 @@ useful and cool.
 - Video input/output
 
 
+### Disclaimer:
+May axe this in favor of a new build utilizing https://google.github.io/mediapipe/solutions/pose
+
 
